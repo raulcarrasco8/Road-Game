@@ -1,0 +1,42 @@
+
+// MVP:
+ . Juego en el navegador donde se desenvolupe:
+    - Player = es un cuadrado 
+    - El player se puede mover derecha y izquierda (si vamos bien añadiremos Arriba y Abajo)
+    - Hay obstaculos (coches) que se mueven del top hacia el bottom, hay 6 carriles
+    - Si cruza la carretera, gana un punto / nivel
+    - Si el player impacta contra un obstaculo, GAME OVER
+
+
+Fase 1 -> ( Dia 1 Set up Basico)
+
+    - Crear estructura básica (index.html, style.css, main.js) 
+    - crear repo (git init + hacer un commit) + subirlo a github.
+    - Crear contenedor #game / board que sera la "carretera" el tablero del juego, donde tendre que decidir medidas (alto xx px y ancho xx px)
+    - Añadir un div con el id #player, donde tendremos que asignar las medidas.
+    - Implementar movimiento con las teclas al Player.
+      . La meta del dia sera conseguir mover el player dentro del board
+
+
+Fase 2 -> ( Dia 2 carriles + Obstaculos)
+
+    - Definir exactamente que recorrido tienen los obstaculos, y el ancho de cada un de ellos
+    - Crear div para el obstaculo #car, que seran los obstaculos que vayan apareciendo en los carriles aleatoriamente
+    - En js hacer que los coches/obstaculo, se muevan aleatoriamente de top a bottom, con (setInterval).
+        . La meta del dia sera ver como los obstaculos se mueven en sus carriles y a la vez el player pueda moverse.
+
+
+Fase 3 -> ( Dia 3 Colisiones)
+
+    - Detectar las Colisiones entre el player y los obstaculos (getBoundingClientRect) para poder comparar posiciones.
+    - Si hay colisión -> GAME OVER
+    - Si el Player llega al otro extremo de la carretera (derecha) sumar punto / nivel, girar el player para afrontar el siguiente nivel volviendo a la (izquierda)
+        . Meta del dia tenerl MVP listo, donde se pueda jugar a un "Juego" solo con cuadrados.
+
+Fase 4 -> ( Dia 4 Diseño y upgrade juego)
+
+    - Incluir marcador de puntuación/nivel en la pantalla
+    - Ajustar la velocidad y frecuencia de los Obstaculos segun el nivel + dificultad
+    - Mejorar CSS añadiendo imagenes, colores, background, para dar vida al juego
+        . Tener el MVP con diseño atractivo para poder presentarlo. 
+
