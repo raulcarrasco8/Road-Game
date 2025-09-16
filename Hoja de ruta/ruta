@@ -10,12 +10,12 @@
 
 Fase 1 -> ( Dia 1 Set up Basico)
 
-    - Crear estructura básica (index.html, style.css, main.js) 
-    - crear repo (git init + hacer un commit) + subirlo a github.
-    - Crear contenedor #game / board que sera la "carretera" el tablero del juego, donde tendre que decidir medidas (alto xx px y ancho xx px)
-    - Añadir un div con el id #player, donde tendremos que asignar las medidas.
-    - Implementar movimiento con las teclas al Player.
-      . La meta del dia sera conseguir mover el player dentro del board
+    - [x] Crear estructura básica (index.html, style.css, main.js) 
+    - [x] crear repo (git init + hacer un commit) + subirlo a github.
+    - [x] Crear contenedor #game / board que sera la "carretera" el tablero del juego, donde tendre que decidir medidas (alto xx px y ancho xx px)
+    - [x] Añadir un div con el id #player, donde tendremos que asignar las medidas.
+    - [x] Implementar movimiento con las teclas al Player.
+        [x]. La meta del dia sera conseguir mover el player dentro del board
 
 
 Fase 2 -> ( Dia 2 carriles + Obstaculos)

@@ -1,3 +1,26 @@
 body {
     background-color: rgba(192, 217, 255, 0.938);
+    margin: 0;
+    padding: 0;
+}
+
+
+#board {
+    background-color: #a7d3d3;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    
+}
+
+
+#player {
+    background-color: aquamarine;
+    position: absolute;
+}
+
+
+#obstacle {
+    background-color: rgb(253, 201, 105);
+    position: absolute;
 }
