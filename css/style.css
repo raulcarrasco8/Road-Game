@@ -10,17 +10,17 @@ body {
     height: 100vh;
     width: 100vw;
     position: relative;
-    
+    overflow: hidden;
 }
 
 
 #player {
-    background-color: aquamarine;
+    background-color: rgb(72, 211, 165);
     position: absolute;
 }
 
 
-#obstacle {
+.obstacle {
     background-color: rgb(253, 201, 105);
     position: absolute;
 }
