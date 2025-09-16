@@ -24,3 +24,9 @@ body {
     background-color: rgb(253, 201, 105);
     position: absolute;
 }
+
+
+#page-gameover {
+    text-align: center;
+    background-color: rgb(219, 248, 238);
+}
