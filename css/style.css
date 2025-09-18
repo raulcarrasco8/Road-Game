@@ -8,8 +8,9 @@ body {
 
 
 #board {
-    background: url(../img/Diseño\ sin\ título\ \(2\).png) no-repeat center center;
-    background-size: cover;
+    /*ckground: url(../img/Diseño\ sin\ título\ \(2\).png) no-repeat center center;*/
+    background: url(../img/road.png) no-repeat center center;
+    background-size: 100% auto;
     height: 90vh;
     width: 100vw;
     position: relative;
@@ -18,20 +19,24 @@ body {
 
 
 #player {
-    background-color: rgb(72, 211, 165);
+    background: url(../img/spr_bike2man_0_resized\ \(1\).png) no-repeat center center;
     position: absolute;
+    background-size: auto 100%;
 }
 
 
 .obstacle {
-    background-color: rgb(253, 201, 105);
+    background: url(../img/car1_spr_0.png) no-repeat center center;
     position: absolute;
+    background-size: auto 100%;
 }
 
 
 #page-gameover {
     text-align: center;
     background-color: rgb(219, 248, 238);
+    font-family: sans-serif;
+    font-size: xx-large;
 }
 
 #hud {

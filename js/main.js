@@ -57,7 +57,7 @@ class Player {
         this.height = 10;
         this.positionX = 0;
         this.positionY = 50;
-
+        
         this.userInterface();
     }
 
@@ -67,9 +67,15 @@ class Player {
         playerElm.style.left = this.positionX + "vw"
         playerElm.style.bottom = this.positionY + "vh"
         playerElm.style.width = this.width + "vw"
-        playerElm.style.height = this.height + "vh"
-    }
+        playerElm.style.height = this.height + "vh";
 
+        if (lastSide === "left") {
+            playerElm.style.transform = "scaleX(1)";
+        } else {
+            playerElm.style.transform = "scaleX(-1)";
+        }
+    }
+git 
     checkCrossing() {
         // Si llega al borde izquierdo y antes estaba en la derecha -> suma nivel
         if (this.positionX <= 0 && lastSide === "right") {
@@ -150,7 +156,7 @@ class Obstacle {
     constructor(x, speed = obstacleSpeed) {
 
         this.width = 10;
-        this.height = 10;
+        this.height = 20;
         this.positionX = x;
         this.positionY = 100 - (this.height);
         this.speed = speed;
