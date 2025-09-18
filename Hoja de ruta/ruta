@@ -28,15 +28,15 @@ Fase 2 -> ( Dia 2 carriles + Obstaculos)
 
 Fase 3 -> ( Dia 3 Colisiones)
 
-    - Detectar las Colisiones entre el player y los obstaculos (getBoundingClientRect) para poder comparar posiciones.
-    - Si hay colisión -> GAME OVER
-    - Si el Player llega al otro extremo de la carretera (derecha) sumar punto / nivel, girar el player para afrontar el siguiente nivel volviendo a la (izquierda)
-        . Meta del dia tenerl MVP listo, donde se pueda jugar a un "Juego" solo con cuadrados.
+    - [x]Detectar las Colisiones entre el player y los obstaculos (getBoundingClientRect) para poder comparar posiciones.
+    - [x] Si hay colisión -> GAME OVER
+    - [x] Si el Player llega al otro extremo de la carretera (derecha) sumar punto / nivel, girar el player para afrontar el siguiente nivel volviendo a la (izquierda)
+        [x] . Meta del dia tenerl MVP listo, donde se pueda jugar a un "Juego" solo con cuadrados.
 
 Fase 4 -> ( Dia 4 Diseño y upgrade juego)
 
-    - Incluir marcador de puntuación/nivel en la pantalla
-    - Ajustar la velocidad y frecuencia de los Obstaculos segun el nivel + dificultad
+    - [x] Incluir marcador de puntuación/nivel en la pantalla
+    - [x] Ajustar la velocidad y frecuencia de los Obstaculos segun el nivel + dificultad
     - Mejorar CSS añadiendo imagenes, colores, background, para dar vida al juego
         . Tener el MVP con diseño atractivo para poder presentarlo. 
 
