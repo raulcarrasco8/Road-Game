@@ -20,7 +20,7 @@ function startNextLevel() {
     if (intervalId) clearInterval(intervalId);
 
 
-    const augmentLevels = 3;i
+    const augmentLevels = 3;
     if (nivel % augmentLevels === 0 && obstacleDelay > 500) { // límite inferior de 500ms
         obstacleDelay -= 200; // disminuye el delay, más frecuencia
         console.log(`Nivel ${nivel}: nuevo delay ${obstacleDelay}ms`);
@@ -33,7 +33,7 @@ function startNextLevel() {
         const usedLanes = []; // esto nos assegura de no poner los obstaculos en el mismo carril
 
 
-            //Bucle donde generamos obstaculos
+        //Bucle donde generamos obstaculos 
         for (let i = 0; i < obstaclesToGenerate; i++) {
             let lane;
             do {
