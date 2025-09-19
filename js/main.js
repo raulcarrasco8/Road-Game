@@ -75,7 +75,7 @@ class Player {
             playerElm.style.transform = "scaleX(-1)";
         }
     }
-git 
+ 
     checkCrossing() {
         // Si llega al borde izquierdo y antes estaba en la derecha -> suma nivel
         if (this.positionX <= 0 && lastSide === "right") {
