@@ -31,13 +31,47 @@ body {
     background-size: auto 100%;
 }
 
-
 #page-gameover {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #1dbaf4, #bed2ed);
+    font-family: 'Arial Black', sans-serif;
+    color: #fff;
     text-align: center;
-    background-color: rgb(219, 248, 238);
-    font-family: sans-serif;
-    font-size: xx-large;
+    animation: fadeIn 1s ease forwards;
 }
+
+#page-gameover h1 {
+    font-size: 5rem;
+    margin: 0 0 20px 0;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    animation: bounce 1.5s ease infinite alternate;
+}
+
+#page-gameover a {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6b6b;
+    background: #fff;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease; /* transicion suave*/
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+#page-gameover a:hover {
+    transform: scale(1.1) rotate(-2deg); /* hace que el boton rote*/
+    box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+}
+
 
 #hud {
     width: 100%;
